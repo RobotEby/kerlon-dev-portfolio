@@ -13,7 +13,7 @@ const Projects = () => {
       title: 'Aplicativo de Receitas',
       description:
         'Um aplicativo moderno de receitas desenvolvido em React, que permite explorar, pesquisar, adicionar aos favoritos e acompanhar o progresso de receitas de pratos e bebidas.',
-      image: 'src/assets/recipe-app.png',
+      image: '/recipe-app.png',
       technologies: [
         'React 18',
         'TypeScript',
@@ -29,7 +29,7 @@ const Projects = () => {
       title: 'Centro de comando da divisão blindada',
       description:
         'Official website of PanzerDiv (PzDiv), a clan specialized in armored vehicle operations in the military simulator SQUAD. The application presents a modern platform for recruiting and publicizing the clan activities.',
-      image: 'src/assets/panzerdiv.png',
+      image: '/panzerdiv.png',
       technologies: ['React 18', 'TypeScript', 'Tailwind CSS', 'Vite'],
       github: 'https://github.com/RobotEby/panzerdiv-squad-hub',
       demo: 'https://panzerdiv-squad-hub.vercel.app/',

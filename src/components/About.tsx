@@ -108,7 +108,7 @@ const About = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-border">
               <img
-                src="src/assets/63c77583ea9a572d6a595706fe9178bb.jpg"
+                src="/63c77583ea9a572d6a595706fe9178bb.jpg"
                 alt="Pato programador"
                 className="w-full h-full object-cover"
               />

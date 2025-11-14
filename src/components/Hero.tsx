@@ -127,7 +127,7 @@ const Hero = () => {
           >
             <div className="aspect-square relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="src/assets/profile.png"
+                src="/profile.png"
                 alt="RobotEby Profile"
                 className="w-full h-full object-cover"
               />
