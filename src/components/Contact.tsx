@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Github, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
 import { useRef, useEffect, useState } from 'react';
 
 const Contact = () => {
@@ -48,14 +48,14 @@ const Contact = () => {
       borderColor: 'border-gray-700/30',
     },
     {
-      icon: Instagram,
-      label: 'Instagram',
-      value: '@kerlonsl._',
-      href: 'https://www.instagram.com/kerlonsl._',
-      gradient: 'from-rose-900/40 to-pink-900/30',
-      glow: 'hover:shadow-rose-500/20',
-      color: 'text-rose-400',
-      borderColor: 'border-rose-800/30',
+      icon: Linkedin,
+      label: 'LinkedIn',
+      value: 'Kerlon Amaral | Desenvolvedor Full Stack',
+      href: 'https://www.linkedin.com/in/kerlon-amaral-297461312/',
+      gradient: 'from-purple-900/40 to-purple-900/30',
+      glow: 'hover:shadow-purple-500/20',
+      color: 'text-purple-400',
+      borderColor: 'border-purple-800/30',
     },
   ];
 
