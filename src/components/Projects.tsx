@@ -41,28 +41,20 @@ const Projects = () => {
       demo: 'https://panzerdiv-squad-hub.vercel.app/',
     },
     {
-      title: 'Pixel Art Studio',
+      title: 'Biblioteca Movie Magic',
       description:
-        'Um editor moderno de pixel art com múltiplas funcionalidades, desenvolvido com HTML5, CSS3 e JavaScript puro.',
-      image: '/interactive-color-palete.png',
-      technologies: ['HTML', 'CSS3', 'javaScript'],
-      demo: 'https://interactive-color-palette.vercel.app/',
+        'Uma biblioteca de filmes (Movie Magic Library) que visa gerenciar e organizar uma coleção de filmes. ',
+      image: '/movie-library.png',
+      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Lucide React'],
+      demo: 'https://movie-magic-library.netlify.app/',
     },
     {
-      title: 'Garin Team Consultoria',
+      title: 'Vanilla Chess',
       description:
-        'Site de consultoria online inspirado pelo treinador Garin. Desenvolvido com React 19, TypeScript, TailwindCSS e Vite.',
-      image: '/garin-team.png',
-      technologies: ['React', 'TypeScript', 'TailwindCSS', 'Vite'],
-      demo: 'https://garin-team-consulting.netlify.app',
-    },
-    {
-      title: 'Portfólio fictício completo de segurança cibernética',
-      description:
-        'Este repositório apresenta um portfólio fictício desenvolvido para demonstrar minhas habilidades em desenvolvimento full-stack com foco em front-end.',
-      image: '/project-atlas.png',
-      technologies: ['React', 'TypeScript', 'TailwindCSS', 'Vite'],
-      demo: 'https://cyber-ops.netlify.app',
+        'Um jogo de xadrez totalmente funcional implementado em JavaScript puro, HTML5 e CSS3. Este projeto demonstra a implementação de algoritmos avançados, manipulação DOM e estilos CSS modernos. ',
+      image: '/vanilla-chess-js.png',
+      technologies: ['JavaScript ES6+', 'JSDoc', 'CSS3', 'HTML5'],
+      demo: 'https://vanilla-chess-js.netlify.app/',
     },
   ];
 
