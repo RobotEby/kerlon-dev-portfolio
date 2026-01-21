@@ -38,7 +38,7 @@ const Projects = () => {
         'Site oficial do PanzerDiv (PzDiv), um clã especializado em operações com veículos blindados no simulador militar SQUAD. A aplicação apresenta uma plataforma moderna para recrutamento e divulgação das atividades do clã.',
       image: '/panzerdiv.png',
       technologies: ['React 18', 'TypeScript', 'Tailwind CSS', 'Vite'],
-      demo: 'https://panzerdiv-squad-hub.vercel.app/',
+      demo: 'https://panzerdiv-squad-hub.netlify.app/',
     },
     {
       title: 'Biblioteca Movie Magic',
