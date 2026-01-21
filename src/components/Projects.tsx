@@ -18,6 +18,33 @@ const Projects = () => {
       demo: 'https://cbaap.com.br',
     },
     {
+      title: 'Docker Task List',
+      description:
+        'Este projeto é um aplicativo completo de lista de tarefas criado para demonstrar o poder da conteinerização e da orquestração de microsserviços. O aplicativo usa um front-end moderno em React, uma API robusta em Node.js, um banco de dados NoSQL e um pipeline CI/CD automatizado. ',
+      image: '/docker-to-do-list.png',
+      technologies: [
+        'React',
+        'Vite',
+        'TailwindCSS',
+        'Node.js',
+        'Express',
+        'Mongoose',
+        'MongoDB',
+        'Docker',
+        'Docker Compose',
+        'GitHub Actions (CI)',
+      ],
+      demo: 'https://docker-task-list.vercel.app/',
+    },
+    {
+      title: 'Biblioteca Movie Magic',
+      description:
+        'Uma biblioteca de filmes (Movie Magic Library) que visa gerenciar e organizar uma coleção de filmes. ',
+      image: '/movie-library.png',
+      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Lucide React'],
+      demo: 'https://movie-magic-library.netlify.app/',
+    },
+    {
       title: 'Aplicativo de Receitas',
       description:
         'Um aplicativo moderno de receitas desenvolvido em React, que permite explorar, pesquisar, adicionar aos favoritos e acompanhar o progresso de receitas de pratos e bebidas.',
@@ -33,28 +60,20 @@ const Projects = () => {
       demo: 'https://recipe-app-gamma-swart.vercel.app/',
     },
     {
-      title: 'Centro de comando da divisão blindada',
-      description:
-        'Site oficial do PanzerDiv (PzDiv), um clã especializado em operações com veículos blindados no simulador militar SQUAD. A aplicação apresenta uma plataforma moderna para recrutamento e divulgação das atividades do clã.',
-      image: '/panzerdiv.png',
-      technologies: ['React 18', 'TypeScript', 'Tailwind CSS', 'Vite'],
-      demo: 'https://panzerdiv-squad-hub.netlify.app/',
-    },
-    {
-      title: 'Biblioteca Movie Magic',
-      description:
-        'Uma biblioteca de filmes (Movie Magic Library) que visa gerenciar e organizar uma coleção de filmes. ',
-      image: '/movie-library.png',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Lucide React'],
-      demo: 'https://movie-magic-library.netlify.app/',
-    },
-    {
       title: 'Vanilla Chess',
       description:
         'Um jogo de xadrez totalmente funcional implementado em JavaScript puro, HTML5 e CSS3. Este projeto demonstra a implementação de algoritmos avançados, manipulação DOM e estilos CSS modernos. ',
       image: '/vanilla-chess-js.png',
       technologies: ['JavaScript ES6+', 'JSDoc', 'CSS3', 'HTML5'],
       demo: 'https://vanilla-chess-js.netlify.app/',
+    },
+    {
+      title: 'Centro de comando da divisão blindada',
+      description:
+        'Site oficial do PanzerDiv (PzDiv), um clã especializado em operações com veículos blindados no simulador militar SQUAD. A aplicação apresenta uma plataforma moderna para recrutamento e divulgação das atividades do clã.',
+      image: '/panzerdiv.png',
+      technologies: ['React 18', 'TypeScript', 'Tailwind CSS', 'Vite'],
+      demo: 'https://panzerdiv-squad-hub.netlify.app/',
     },
   ];
 
