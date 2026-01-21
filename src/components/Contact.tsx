@@ -61,7 +61,7 @@ const Contact = () => {
 
   return (
     <section
-      id="Contato"
+      id="Contact"
       className="min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-24 relative overflow-hidden bg-gradient-to-br from-gray-950 via-black to-gray-900"
       ref={ref}
     >
