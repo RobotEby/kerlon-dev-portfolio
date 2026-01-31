@@ -36,6 +36,14 @@ const Projects = () => {
       demo: 'https://cbaap.com.br',
     },
     {
+      title: 'pyScan Ports Scanner',
+      description:
+        'Um escâner de portas desenvolvido em Python que verifica se as portas de um determinado IP ou domínio estão abertas ou fechadas, ajudando o usuário a compreender melhor o funcionamento de portas em redes e a realizar auditorias básicas de segurança.',
+      image: '/pyscan-ports-scanner.png',
+      technologies: ['Python'],
+      github: 'https://github.com/howosec/pyscan-ports-scanner',
+    },
+    {
       title: 'Docker Task List',
       description:
         'Este projeto é um aplicativo completo de lista de tarefas criado para demonstrar o poder da conteinerização e da orquestração de microsserviços. O aplicativo usa um front-end moderno em React, uma API robusta em Node.js, um banco de dados NoSQL e um pipeline CI/CD automatizado. ',
